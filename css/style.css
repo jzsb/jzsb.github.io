@@ -1,0 +1,206 @@
+body, h1, h2, h3, p, a {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.header-text {
+  text-align: center;
+  margin-top: 30px;
+  color: #424242;
+}
+
+/** Cover & Navbar | #E91E63**/
+
+#cover {
+  height: 100vh;
+  background: url('../img/poles.jpeg');
+  background-size: cover;
+}
+.nav-logo h3 {
+  position: absolute;
+  line-height: 80px;
+}
+#nav-bar {
+  height: 80px;
+}
+
+.toggle-nav {
+    display:none;
+}
+
+.menu {
+  height: 80px;
+}
+
+.menu ul {
+    display:inline-block;
+    float: right;
+}
+
+.menu li {
+    margin:0px 50px 0px 0px;
+    float:left;
+    list-style:none;
+    font-size:17px;
+    text-transform: uppercase;
+}
+
+.menu li:last-child {
+    margin-right:0px;
+}
+
+.menu a {
+    color:#424242;
+    line-height: 80px;
+    transition:color linear 0.15s;
+}
+
+.menu a:hover, .menu .current-item a {
+    text-decoration:none;
+    color:#E91E63;
+}
+
+/** Cover Text **/
+
+.cov-text {
+  margin-top: 100px;
+  text-align: center;
+  color: #424242;
+}
+
+.cov-text h2 {
+  color: #E91E63;
+  font-weight: bold;
+}
+
+/** About | #E91E63**/
+
+.about-text {
+  margin-top: 30px;
+  text-indent: 30px;
+  text-align: center;
+  color: #424242;
+}
+
+
+/** Features **/
+#features {
+margin-top:30px;
+background: #FAFAFA;
+}
+
+.icon li{
+  text-align: center;
+  list-style: none;
+  color: #E91E63;
+  font-size: 6em;
+}
+
+/** Portfolio**/
+
+.card {
+  height: 300px;
+  background-color: #FAFAFA;
+  margin-top: 10px;
+}
+
+.name {
+  background-image: url(../img/bulding-2.jpeg);
+  background-size: cover;
+}
+
+.port {
+  text-align: center;
+}
+
+.port.title {
+  margin-top: 5px;
+  color: #E91E63;
+}
+
+.port.description {
+  color: #424242;
+}
+
+/** Subscribe **/
+
+#subscribe {
+  margin-top: 30px;
+  background-color: #FAFAFA;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#sub-email {
+  width: 85%;
+  display: inline-block;
+  background: none;
+  border: 2px solid #E91E63;
+  color: #424242;
+  margin-bottom: 30px;
+}
+
+#sub-email:focus {
+  border: 2px solid #424242;
+}
+
+.sub-btn {
+  margin-left: 10px;
+  padding: 10px;
+  border: 2px solid #E91E63;
+  color: #E91E63;
+  margin-bottom: 10px;
+}
+
+.sub-btn:hover {
+  background: #424242;
+  border: 2px solid #424242;
+  color: white;
+}
+
+/** Contact **/
+
+#form-msg {
+  height: 300px;
+}
+
+.input-title {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+  color: #424242;
+}
+
+.input-style {
+  background: none;
+  border: 2px solid #E91E63;
+  color: #424242;
+}
+
+.input-style:focus {
+  border: 2px solid #424242;
+  color: #424242;
+}
+
+#submit-btn {
+  width: 100%;
+  background: none;
+  padding: 10px;
+  color: #E91E63;
+  border: 2px solid #E91E63;
+}
+
+#submit-btn:hover {
+  color: white;
+  background: #424242;
+  border: 2px solid #424242;
+}
+
+#footer {
+  margin-top: 30px;
+  height: 80px;
+  background-color: #E91E63;
+}
