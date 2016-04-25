@@ -110,6 +110,11 @@ background: #FAFAFA;
   background-size: cover;
 }
 
+.skyline {
+  background-image: url(../img/skyline.png);
+  background-size: cover;
+}
+
 .port {
   text-align: center;
 }
