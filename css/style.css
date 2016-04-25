@@ -113,6 +113,7 @@ background: #FAFAFA;
 .skyline {
   background-image: url(../img/skyline.png);
   background-size: cover;
+  background-position: center;
 }
 
 .port {
